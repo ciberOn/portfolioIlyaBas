@@ -7,7 +7,7 @@
 body {
     background: linear-gradient(rgb(239, 8, 170), rgb(243, 6, 6));
     min-height: 99vh;
-    font-size: 16px;
+    font-size: 17px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
 }
@@ -60,6 +60,7 @@ body {
     border-radius: 20px;
     padding: 30px;
     width: 400px;
+    max-height: 400px;
 }
 .contacts:nth-child(2){
     transform: translateY(50%);
@@ -67,5 +68,12 @@ body {
 .main__container{
     display: flex;
     justify-content: space-between;
+    border: 2px solid white;
+    min-height: 900px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
 }
-/* @ben228366 */
+
+/* @ben228366 *
+
